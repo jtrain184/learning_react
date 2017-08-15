@@ -1,0 +1,4 @@
+TO do:
+
+Refactor code, breaking out components 
+Look at composition model in depth
