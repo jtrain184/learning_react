@@ -49,6 +49,7 @@ class App extends Component {
   }
 
   render() {
+    const pi = Math.PI;
     const { searchTerm, list } = this.state;  // ES6 Destructuring
     return (
       <div className="App">
@@ -63,6 +64,10 @@ class App extends Component {
           pattern={searchTerm}
           onDismiss={this.onDismiss}
         />
+          <div className="isTastyPie">
+            <br />
+            The value of pie is approximately  {pi}
+          </div>
       </div>
     );
   }
